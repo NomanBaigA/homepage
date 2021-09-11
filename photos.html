@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <title>Photos</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="./index.html">Noman Baig</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="./index.html">Home</a>
+                <a class="nav-item nav-link" href="./about.html">About Me</a>
+                <a class="nav-item nav-link active" href="./photos.html">Photos</a>
+                <a class="nav-item nav-link" href="./contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- sliding 3 images -->
+    <main class="jumbotron vertical-center">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <!-- Fisrt slide -->
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/1.jpg" alt="First slide">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Flower</h5>
+                        <p>A flower with sun</p>
+                    </div>
+                </div>
+                <!-- Second slide -->
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/2.jpg" alt="Second slide">
+                    <div class="carousel-caption d-md-block">
+                        <h5>White Flowers</h5>
+                    </div>
+                </div>
+                <!-- Third slide -->
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/3.jpg" alt="Third slide">
+                    <div class="carousel-caption d-md-block">
+                        <h5>JCB</h5>
+                        <p>A toy jcb</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Button so we can go to previous slide -->
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <!-- Button so we can go to next slide -->
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </main>
+
+    <footer class="page-footer font-small blue">
+        <div class="footer-copyright text-center py-3">© 2021 Copyright: Noman-Baig
+        </div>
+    </footer>
+</body>
+
+</html>
