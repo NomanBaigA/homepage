@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* for body backgroud color and height */
+body {
+    background-color: #e9ecef;
+    height: 100vh;
+}
+
+/* Indicator */
+#carouselExampleIndicators {
+    width: 70%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.vertical-center {
+    min-height: 100%;
+}
+
+/* css for footer */
+.page-footer {
+    position: relative;
+    background-color: #212529;
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item h5,
+.carousel-item p {
+    color: white;
+    margin-bottom: 0;
+}
+
+.carousel-item:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));
+}
+
+/* this css code makee image to be in center */
+img.center {
+    display: block;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+
+/* for giving padding in some places */
+#container {
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+/* for alert */
+.alert {
+    display: none;
+}
