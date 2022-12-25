@@ -1,7 +1,7 @@
 # Homepage
 A simple home page which contain header, footer, navigation bar, etc. by using HTML, CSS, JavaScript and bootstrap.
 
-# Screenshots
+## Screenshots
 
 ![Screenshot1](https://user-images.githubusercontent.com/49509445/208183515-a68e00c6-9d86-4ab4-852d-38f9391151dd.png)
 ![Screenshot2](https://user-images.githubusercontent.com/49509445/208183521-ba595a92-e985-4704-956d-6bd9199de423.png)
